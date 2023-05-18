@@ -24,7 +24,7 @@
     float: left;
     width: 100%;
     padding-top: 4%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 .image{
     position: relative;
@@ -63,4 +63,8 @@ td{
 .con{
     text-decoration: none;
     color: #fff;
+}
+.pow{
+    opacity: 40%;
+    padding-top: 2%;
 }
