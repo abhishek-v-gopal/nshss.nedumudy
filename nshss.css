@@ -65,6 +65,13 @@ td{
     color: #fff;
 }
 .pow{
+    text-align: center;
     opacity: 40%;
     padding-top: 2%;
+}
+.mage{
+    width: 70%;
+    float: left;
+    padding: 5%;
+
 }
