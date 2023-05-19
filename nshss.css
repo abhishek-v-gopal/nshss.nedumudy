@@ -23,7 +23,7 @@
     color: #fff;
     float: left;
     width: 100%;
-    padding-top: 4%;
+    padding-top: 2%;
     padding-bottom: 1%;
 }
 .image{
@@ -70,8 +70,9 @@ td{
     padding-top: 2%;
 }
 .mage{
-    width: 70%;
+    width: 85%;
     float: left;
-    padding: 5%;
+    padding-left: 7%;
+    padding-top: 3%;
 
 }
