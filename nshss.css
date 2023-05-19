@@ -77,3 +77,6 @@ td{
     padding-top: 3%;
 
 }
+table{
+    table-layout: auto;
+}
