@@ -81,3 +81,10 @@ td{
     margin: auto;
     text-align: left;
 }
+.name{
+    text-decoration: none;
+    color: #fff;
+}
+.display{
+    text-align: center;
+}
