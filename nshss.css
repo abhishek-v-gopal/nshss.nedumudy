@@ -89,3 +89,7 @@ td{
 .display{
     text-align: center;
 }
+.pad{
+    padding-left: 4%;
+    padding-right: 4%;
+}
