@@ -1,3 +1,10 @@
+::-webkit-scrollbar
+{
+    display: none;
+}
+.navbar{
+    position: sticky;
+}
 .subbox{
     /* text-align: center; */
     width: 90%;
@@ -57,6 +64,7 @@ button{
 }
 .main{
     float: left;
+    position: relative;
 }
 td{
     text-align: sta;
@@ -92,4 +100,16 @@ td{
 .pad{
     padding-left: 10%;
     padding-right: 10%;
+}
+.mage{
+    width: 100%;
+    padding-right: 7%;
+    padding-bottom: 3%;
+}
+.align{
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Merriweather', serif;
 }
