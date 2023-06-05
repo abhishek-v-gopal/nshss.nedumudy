@@ -1,3 +1,7 @@
+::-webkit-scrollbar
+{
+    display: none;
+}
 .subbox{
     /* text-align: center; */
     width: 90%;
@@ -20,7 +24,6 @@
 .image{
     width: 100%;
     height: auto;
-    padding: 3% ;
 }
 .centered {
     position: absolute;
