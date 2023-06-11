@@ -125,3 +125,7 @@ td{
     text-decoration: none;
     font-size: x-large;
 }
+.pad1{
+    margin-left: auto;
+    margin-right: auto;
+}
