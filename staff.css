@@ -1,0 +1,22 @@
+.thumbnail{
+    background: transparent;
+    border: 0cap;
+}
+.thumbnail > img{
+    margin-right: auto;
+    margin-left: auto;                                                                                                                                                                                                      
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.img-round{
+    border-radius: 500px;
+}
+.caption{
+    text-align: center;
+}
+.card{
+    border: none;
+}

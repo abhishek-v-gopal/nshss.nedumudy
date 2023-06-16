@@ -1,24 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="computer.css">
+	<title>News Ticker</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		.containe {
+			width: 100%;
+			height: 50px;
+			background-color: #333;
+			color: #fff;
+			position: relative;
+			overflow: hidden;
+		}
+		.containe p {
+			position: absolute;
+			margin: 0;
+			line-height: 50px;
+			padding-left: 100%;
+			animation: newsTicker 15s linear infinite;
+		}
+		@keyframes newsTicker {
+			from {
+				transform: translateX(0%);
+			}
+			to {
+				transform: translateX(-100%);
+			}
+		}
+	</style>
 </head>
-<body><div class="container-fluid">
-  <div class="containers">
-    <img src="asset/bio.jpg" style="width:100%;" class="imge">
-    <div class="centered">
-      <div class="subbox">
-      <h1 class="font">Biology Science</h1>
-      <p class="font">"Two batches with 50 seats intake in each"</p>
-      <h5>NSHSS</h5>
-      </div>
-    </div>
-  </div>
+<body>
+<div class="containe">
+    <p>Breaking News 1</p>
+    <p>Breaking News 2</p>
+    <p>Breaking News 3</p>
+    <p>Breaking News 4</p>
+    <p>Breaking News 5</p>
+    <p>Breaking News 6</p>
+    <p>Breaking News 7</p>
+    <p>Breaking News 8</p>
+    <p>Breaking News 9</p>
+    <p>Breaking News 10</p>
 </div>
+
 </body>
 </html>
+
