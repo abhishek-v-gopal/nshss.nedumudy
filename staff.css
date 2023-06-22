@@ -1,4 +1,4 @@
-.thumbnail{
+/* .thumbnail{
     background: transparent;
     border: 0cap;
 }
@@ -10,9 +10,11 @@
     display: block;
     max-width: 100%;
     height: auto;
-}
+} */
 .img-round{
     border-radius: 500px;
+    width: 50%;
+    align-self: center;
 }
 .caption{
     text-align: center;
