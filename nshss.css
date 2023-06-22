@@ -135,3 +135,18 @@ td{
 }
 
 
+
+/* news */
+
+.news li {
+    line-height: 30px;
+    list-style: none;
+    color: #c77b00;
+    font-size: 18px;
+  }
+.news{
+    text-align: center;
+}
+.news h5{
+    text-align: left;
+}
