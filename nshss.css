@@ -145,7 +145,7 @@ td{
 .news li {
     line-height: 30px;
     list-style: none;
-    color: #c77b00;
+    color: #c63939;
     font-size: 18px;
   }
 .news{
@@ -153,4 +153,10 @@ td{
 }
 .news h5{
     text-align: left;
+}
+.button{
+    font-family: 'Times New Roman', Times, serif;
+}
+.ne{
+    padding-bottom: 3%;
 }
