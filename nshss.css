@@ -141,7 +141,9 @@ td{
 
 
 /* news */
-
+ul{
+    display: inline;
+}
 .news li {
     line-height: 30px;
     list-style: none;
@@ -150,6 +152,7 @@ td{
   }
 .news{
     text-align: center;
+    justify-content: center;
 }
 .news h5{
     text-align: left;
@@ -157,6 +160,4 @@ td{
 .button{
     font-family: 'Times New Roman', Times, serif;
 }
-.ne{
-    padding-bottom: 3%;
-}
+
