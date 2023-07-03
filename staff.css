@@ -26,3 +26,14 @@
     text-align: center;
     color: rgb(139, 43, 43);
 }
+.fonts{
+    font-size: xx-large;
+}
+.aligns{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
