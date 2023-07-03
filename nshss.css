@@ -160,4 +160,6 @@ ul{
 .button{
     font-family: 'Times New Roman', Times, serif;
 }
-
+.news li h5{
+    color: #000;
+}
