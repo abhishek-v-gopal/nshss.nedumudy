@@ -2,6 +2,7 @@
 {
     display: none;
 }
+
 .navbar{
     position: sticky;
 }
@@ -162,4 +163,7 @@ ul{
 }
 .news li h5{
     color: #000;
+}
+.dropdown-menu{
+    position: -webkit-sticky;
 }
