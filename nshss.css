@@ -167,3 +167,8 @@ ul{
 .dropdown-menu{
     position: -webkit-sticky;
 }
+
+.logo{
+    height: auto;
+    width: 8%;
+}
