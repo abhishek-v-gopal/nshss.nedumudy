@@ -1,36 +1,67 @@
-// jQuery.fn.liScroll = function(settings) {
-// 	settings = jQuery.extend({
-// 		travelocity: 0.03
-// 		}, settings);		
-// 		return this.each(function(){
-// 				var $strip = jQuery(this);
-// 				$strip.addClass("newsticker")
-// 				var stripHeight = 1;
-// 				$strip.find("li").each(function(i){
-// 					stripHeight += jQuery(this, i).outerHeight(true); // thanks to Michael Haszprunar and Fabien Volpi
-// 				});
-// 				var $mask = $strip.wrap("<div class='mask'></div>");
-// 				var $tickercontainer = $strip.parent().wrap("<div class='tickercontainer'></div>");								
-// 				var containerHeight = $strip.parent().parent().height();	//a.k.a. 'mask' width 	
-// 				$strip.height(stripHeight);			
-// 				var totalTravel = stripHeight;
-// 				var defTiming = totalTravel/settings.travelocity;	// thanks to Scott Waye		
-// 				function scrollnews(spazio, tempo){
-// 				$strip.animate({top: '-='+ spazio}, tempo, "linear", function(){$strip.css("top", containerHeight); scrollnews(totalTravel, defTiming);});
-// 				}
-// 				scrollnews(totalTravel, defTiming);				
-// 				$strip.hover(function(){
-// 				  jQuery(this).stop();
-// 				},
-// 				function(){
-// 				  var offset = jQuery(this).offset();
-// 				  var residualSpace = offset.top + stripHeight;
-// 				  var residualTime = residualSpace/settings.travelocity;
-// 				  scrollnews(residualSpace, residualTime);
-// 				});			
-// 		});	
-// };
+// cs
+function myFunctionCs() {
+    var dots = document.getElementById("dots1");
+    var moreText = document.getElementById("more1");
+    var btnText = document.getElementById("myBtn1");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
 
-// $(function(){
-//     $("ul#ticker01").liScroll();
-// });
+// bs
+function myFunctionBs() {
+    var dots = document.getElementById("dots2");
+    var moreText = document.getElementById("more2");
+    var btnText = document.getElementById("myBtn2");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
+// cm
+function myFunctionCm() {
+    var dots = document.getElementById("dots3");
+    var moreText = document.getElementById("more3");
+    var btnText = document.getElementById("myBtn3");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
+// hm
+function myFunctionHm() {
+    var dots = document.getElementById("dots4");
+    var moreText = document.getElementById("more4");
+    var btnText = document.getElementById("myBtn4");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
