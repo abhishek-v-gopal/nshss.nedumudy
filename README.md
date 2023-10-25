@@ -8,3 +8,5 @@ Live:https://abhishek-v-gopal.github.io/nshss.nedumudy/
 
 <a href="https://abhishekvgopal.in/">My portfolio</a>
 
+<img src="asset/school_logo-removebg-preview.png">
+
