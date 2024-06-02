@@ -9,11 +9,12 @@
     <meta content="Nair Samajam Higher Secondary School, a aided Higher Secondary School run by the Kottaram Devaswom , is one of the leading schools in Alappuzha." name="description">
    <meta content="nshss nedumudy,nedumudy,school, higher Secondary school, +2 , computer Science, biology Science, humanities, Alappuzha" name="keywords">
    <meta content="school, best school, schools, +2 school,top 10 school,best school,best top 10 school" name="keywords">
-   <meta content="school kerala, kerala school , kottaram school ,kottaram nedumudy, kottaram devi temple, higher education , alappuzha best school" name="keywords">
+   <meta content="school kerala,kottaram,champakulam, kerala school ,highschool, best,institute kottaram school ,kottaram nedumudy, kottaram devi temple, higher education , alappuzha best school" name="keywords">
 
-    <link rel="website icon" type="png" href="asset/school_logo-removebg-preview.png">
+    <link rel="website icon" type="png" href="asset/Logo.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="nshss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GFDQGCVHYV"></script>
@@ -108,7 +109,7 @@
       </div>
 
       <div class="align">
-        <img src="asset/school_logo-removebg-preview.png" alt="logo" class="logo">
+        <img src="asset/Logo.png" alt="logo" class="logo">
         <h1 class="fonts">Nair Samajam Higher Secondary School</h1>
       </div>
 <!--News  -->
@@ -314,7 +315,7 @@
 
             <div class="pad" id="contact">
               <h2>Contact Us</h2>
-              <form class="cf" method="POST" action="https://formsubmit.co/ac8a92a1be96c49b6e05f656ce97ed58">
+              <form class="cf" action="" id="submit-form">
                 <div class="row">
                     <div class="form-group col-md-6 py-2">
                         <label>Your Name</label>
@@ -384,7 +385,7 @@
             <div class="pow">
               <div class="pow">
                 <p> <a class="name" href="https://abhishekvgopal.in">Developed by an alumini of Nshss,Nedumudy</a></p>
-                <img src="asset/school_logo-removebg-preview.png" alt="logo" class="logo">
+                <img src="asset/Logo.png" alt="logo" class="logo">
               </div>
             </div> 
         </div>
@@ -396,5 +397,25 @@
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="nshss.js"></script>
+<script>
+  $("#submit-form").submit((e)=>{
+      e.preventDefault()
+      $.ajax({
+          url:"https://script.google.com/macros/s/AKfycbz-QaSF9Tk9QQlx40HykTlxBz0m_eNxgAsrWY96ixISsCaoqTs-1sYTgII4UUi-ukUO/exec",
+          data:$("#submit-form").serialize(),
+          method:"post",
+          success:function (response){
+              alert("Form submitted successfully")
+              window.location.reload()
+              //window.location.href="https://google.com"
+          },
+          error:function (err){
+              alert("Something Error")
+
+          }
+      })
+  })
+</script>
+
   </body>
 </html>
